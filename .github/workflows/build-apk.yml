@@ -65,6 +65,9 @@ jobs:
       - name: Generate Android project
         run: flutter create --platforms=android --org com.smartmobilecodes --project-name smart_mobile_codes .
 
+      - name: Apply safe Android release settings for WorkManager
+        run: python3 tool/patch_android_release.py
+
       - name: Configure native Android home-screen widget
         run: python3 tool/configure_android_widget.py
 
