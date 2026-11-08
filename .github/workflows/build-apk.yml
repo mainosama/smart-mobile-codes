@@ -17,30 +17,27 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Verify source archive
-        shell: bash
-        run: |
-          test -f smart-mobile-codes-main.zip || { echo 'Upload smart-mobile-codes-main.zip to repository root'; exit 1; }
+        run: test -f smart-mobile-codes-main.zip
 
-      - name: Extract Flutter source without replacing workflow
+      - name: Extract Flutter source outside repository
         shell: bash
         run: |
-          mkdir -p extracted-source
-          unzip -q smart-mobile-codes-main.zip -d extracted-source
-          mapfile -t manifests < <(find extracted-source -mindepth 2 -maxdepth 5 -type f -name pubspec.yaml -print)
+          SOURCE_DIR="$RUNNER_TEMP/smart-mobile-codes-source"
+          rm -rf "$SOURCE_DIR"
+          mkdir -p "$SOURCE_DIR"
+          unzip -q smart-mobile-codes-main.zip -d "$SOURCE_DIR"
+          mapfile -t manifests < <(find "$SOURCE_DIR" -mindepth 2 -maxdepth 5 -type f -name pubspec.yaml -print)
           if [[ ${#manifests[@]} -ne 1 ]]; then
             echo "Expected exactly one pubspec.yaml; found ${#manifests[@]}"
-            find extracted-source -name pubspec.yaml -print
+            find "$SOURCE_DIR" -name pubspec.yaml -print
             exit 1
           fi
-          project_dir="$(dirname "${manifests[0]}")"
-          python3 - "$project_dir" <<'PY'
+          PROJECT_DIR="$(dirname "${manifests[0]}")"
+          python3 - "$PROJECT_DIR" "$GITHUB_WORKSPACE" <<'PYTHON'
           from pathlib import Path
           import shutil, sys
-          src = Path(sys.argv[1])
-          dst = Path.cwd()
+          src, dst = Path(sys.argv[1]), Path(sys.argv[2])
           for item in src.iterdir():
-              # Keep the workflow uploaded directly to the repository; never replace it
-              # with the older workflow bundled in the source archive.
               if item.name == '.github':
                   continue
               target = dst / item.name
@@ -48,8 +45,10 @@ jobs:
                   shutil.copytree(item, target, dirs_exist_ok=True)
               else:
                   shutil.copy2(item, target)
-          PY
-          test -f pubspec.yaml && test -d lib && test -f tool/configure_android_widget.py
+          PYTHON
+          test -f pubspec.yaml
+          test -d lib
+          test -f test/widget_test.dart
 
       - name: Set up Java
         uses: actions/setup-java@v5
