@@ -16,8 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Verify source archive
-        run: test -f smart-mobile-codes-main.zip
+      - name: Verify source archive and remote catalog
+        run: |
+          test -f smart-mobile-codes-main.zip
+          test -f codes.json
+          python3 -m json.tool codes.json > /dev/null
 
       - name: Extract Flutter source outside repository
         shell: bash
@@ -84,7 +87,7 @@ jobs:
         run: flutter build apk --release
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: smart-mobile-codes-apk
           path: build/app/outputs/flutter-apk/app-release.apk
