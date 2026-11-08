@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-09T00:00:00Z",
+  "publisher": "Smart Mobile Codes",
+  "codes": [
+    {
+      "id": "vf_balance",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "الاستعلام عن الرصيد",
+      "code": "868",
+      "category": "الرصيد",
+      "description": "تكلفة المكالمة 20 قرش وفق دليل فودافون المنشور.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers"
+    },
+    {
+      "id": "vf_services",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "قائمة خدمات فودافون",
+      "code": "*888#",
+      "category": "الدعم",
+      "description": "قائمة خدمات فودافون المختصرة.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers"
+    },
+    {
+      "id": "vf_recharge",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "شحن الرصيد",
+      "code": "858",
+      "category": "الشحن",
+      "description": "خدمة شحن كروت الرصيد.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers"
+    },
+    {
+      "id": "orange_customer",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "خدمة العملاء",
+      "code": "110",
+      "category": "الدعم",
+      "description": "اتصل من خط أورنج.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "orange_balance_due",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "معرفة الرصيد والمبالغ المستحقة",
+      "code": "#16#",
+      "category": "الرصيد",
+      "description": "استعلام عن الرصيد والمبالغ المستحقة.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "orange_account",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "إدارة الحساب والخدمات",
+      "code": "#100#",
+      "category": "الدعم",
+      "description": "إدارة الرصيد والخدمات والباقات.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "orange_main_menu",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "قائمة الرصيد والتجديد",
+      "code": "#0#",
+      "category": "الرصيد",
+      "description": "معرفة الرصيد وموعد التجديد والتحكم في الباقة.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "orange_big",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقات كروت الكبير",
+      "code": "#175#",
+      "category": "الباقات",
+      "description": "الاشتراك ومعرفة المتبقي من باقات كروت الكبير.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "orange_go",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقات إنترنت GO",
+      "code": "#222#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقات GO؛ لمعرفة المتبقي استخدم #136# حسب دليل أورنج.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "orange_daily",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "عروض 012 اليومية",
+      "code": "#012#",
+      "category": "العروض",
+      "description": "الاشتراك في عروض 012 اليومية.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "orange_cash",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "إدارة محفظة أورنج كاش",
+      "code": "#7115#",
+      "category": "المحفظة",
+      "description": "إدارة محفظة Orange Cash.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers"
+    },
+    {
+      "id": "we_customer",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "خدمة العملاء",
+      "code": "111",
+      "category": "الدعم",
+      "description": "قد تُطبق تكلفة المكالمة وفق دليل WE.",
+      "verified": true,
+      "sourceUrl": "https://te.eg/about-te/faq"
+    },
+    {
+      "id": "we_balance",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "معرفة الرصيد",
+      "code": "*550#",
+      "category": "الرصيد",
+      "description": "استعلام عن الرصيد.",
+      "verified": true,
+      "sourceUrl": "https://te.eg/about-te/faq"
+    },
+    {
+      "id": "we_bundle",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "معرفة المتبقي من الباقة",
+      "code": "*414#",
+      "category": "الباقات",
+      "description": "استعلام عن الوحدات المتبقية.",
+      "verified": true,
+      "sourceUrl": "https://te.eg/about-te/faq"
+    },
+    {
+      "id": "we_number",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "معرفة رقمك",
+      "code": "*688#",
+      "category": "الدعم",
+      "description": "معرفة رقم خط WE.",
+      "verified": true,
+      "sourceUrl": "https://te.eg/about-te/faq"
+    },
+    {
+      "id": "et_wallet_balance",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "رصيد محفظة e& money",
+      "code": "*777*4#",
+      "category": "المحفظة",
+      "description": "استعلام عن رصيد المحفظة الإلكترونية فقط.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html"
+    }
+  ]
+}
