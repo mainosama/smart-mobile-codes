@@ -1,35 +1,84 @@
-name: Build Android APK
+name: Build Smart Mobile Codes APK
 
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 35
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
-      - name: Setup Java
-        uses: actions/setup-java@v4
+      - name: Verify source archive
+        shell: bash
+        run: |
+          test -f smart-mobile-codes-main.zip || { echo 'Upload smart-mobile-codes-main.zip to repository root'; exit 1; }
+
+      - name: Extract Flutter source without replacing workflow
+        shell: bash
+        run: |
+          mkdir -p extracted-source
+          unzip -q smart-mobile-codes-main.zip -d extracted-source
+          mapfile -t manifests < <(find extracted-source -mindepth 2 -maxdepth 5 -type f -name pubspec.yaml -print)
+          if [[ ${#manifests[@]} -ne 1 ]]; then
+            echo "Expected exactly one pubspec.yaml; found ${#manifests[@]}"
+            find extracted-source -name pubspec.yaml -print
+            exit 1
+          fi
+          project_dir="$(dirname "${manifests[0]}")"
+          python3 - "$project_dir" <<'PY'
+          from pathlib import Path
+          import shutil, sys
+          src = Path(sys.argv[1])
+          dst = Path.cwd()
+          for item in src.iterdir():
+              # Keep the workflow uploaded directly to the repository; never replace it
+              # with the older workflow bundled in the source archive.
+              if item.name == '.github':
+                  continue
+              target = dst / item.name
+              if item.is_dir():
+                  shutil.copytree(item, target, dirs_exist_ok=True)
+              else:
+                  shutil.copy2(item, target)
+          PY
+          test -f pubspec.yaml && test -d lib && test -f tool/configure_android_widget.py
+
+      - name: Set up Java
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
 
-      - name: Setup Flutter
+      - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: stable
+          cache: true
+
       - name: Generate Android project
-        run: flutter create --platforms=android .
-      - name: Get dependencies
+        run: flutter create --platforms=android --org com.smartmobilecodes --project-name smart_mobile_codes .
+
+      - name: Configure native Android home-screen widget
+        run: python3 tool/configure_android_widget.py
+
+      - name: Install dependencies
         run: flutter pub get
 
-      - name: Build APK
+      - name: Analyze source
+        run: flutter analyze --no-pub --no-fatal-infos
+
+      - name: Run tests
+        run: flutter test --no-pub
+
+      - name: Build release APK
         run: flutter build apk --release
 
       - name: Upload APK
@@ -37,3 +86,5 @@ jobs:
         with:
           name: smart-mobile-codes-apk
           path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
