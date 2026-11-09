@@ -80,6 +80,9 @@ jobs:
       - name: Generate Android launcher icons
         run: dart run flutter_launcher_icons
 
+      - name: Apply app branding and verify launcher logo
+        run: python3 tool/brand_android.py
+
       - name: Analyze source
         run: flutter analyze --no-pub --no-fatal-infos
 
