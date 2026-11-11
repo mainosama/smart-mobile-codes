@@ -1,164 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "publisher": "Smart Mobile Codes",
   "codes": [
-    {
-      "id": "vf_puk",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "معرفة رقم PUK",
-      "code": "*888*رقم التليفون#",
-      "category": "إدارة الخط",
-      "description": "صيغة الاستعلام عن PUK؛ استبدل رقم التليفون بالرقم المطلوب.",
-      "verified": true,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "vf_flex_manage",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "إدارة باقة فليكس",
-      "code": "*880#",
-      "category": "الباقات",
-      "description": "قائمة إدارة وتجديد باقات فليكس.",
-      "verified": true,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "فليكس"
-    },
-    {
-      "id": "vf_remaining_units",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "المتبقي من الدقائق والرسائل",
-      "code": "*555#",
-      "category": "الباقات",
-      "description": "الاستعلام عن المتبقي من الدقائق والرسائل والساعات المجانية.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "vf_roaming",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "خدمات التجوال",
-      "code": "*888*5#",
-      "category": "التجوال",
-      "description": "قائمة/تفعيل خدمات التجوال؛ راجع الأسعار قبل الاستخدام.",
-      "verified": true,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب أهلية الخط"
-    },
-    {
-      "id": "vf_live_off",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "إيقاف Vodafone Live",
-      "code": "*888*41#",
-      "category": "الخدمات",
-      "description": "إيقاف خدمة Vodafone Live.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "vf_live_on",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "تشغيل Vodafone Live",
-      "code": "*888*4#",
-      "category": "الخدمات",
-      "description": "تشغيل خدمة Vodafone Live.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "vf_datetime",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "التاريخ والوقت",
-      "code": "*100#",
-      "category": "الدعم",
-      "description": "معرفة التاريخ والساعة.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "vf_customer",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "خدمة عملاء فودافون",
-      "code": "888",
-      "category": "الدعم",
-      "description": "الاتصال بخدمة عملاء فودافون من خط فودافون.",
-      "verified": true,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "vf_cash_customer",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "خدمة عملاء فودافون كاش",
-      "code": "7001",
-      "category": "الدعم",
-      "description": "رقم خدمة عملاء فودافون كاش.",
-      "verified": true,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "الخطوط المفعّل عليها Vodafone Cash"
-    },
-    {
-      "id": "vf_customer_any",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "خدمة عملاء فودافون من أي شبكة",
-      "code": "16888",
-      "category": "الدعم",
-      "description": "رقم خدمة عملاء فودافون من أي خط محمول.",
-      "verified": true,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "vf_services",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "قائمة خدمات فودافون",
-      "code": "*888#",
-      "category": "الدعم",
-      "description": "قائمة خدمات فودافون المختصرة. — يحتاج مراجعة مباشرة للكود من مصدر الشركة قبل اعتباره مؤكداً.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "vf_puk_ar",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "معرفة رقم PUK بالعربية",
-      "code": "*888*رقم التليفون#",
-      "category": "الدعم",
-      "description": "تعليمات معرفة رقم PUK باللغة العربية.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "vf_number",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "معرفة رقم الخط",
-      "code": "*878#",
-      "category": "الدعم",
-      "description": "معرفة رقم هاتفك.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
-    },
     {
       "id": "vf_balance",
       "providerId": "vodafone",
@@ -169,7 +13,8 @@
       "description": "تكلفة المكالمة 20 قرش وفق دليل فودافون الرسمي.",
       "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "vf_balance_exp",
@@ -181,7 +26,8 @@
       "description": "قائمة الاستعلام عن الرصيد؛ قد تختلف الإتاحة حسب النظام.",
       "verified": true,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كارت • كنترول • حسب النظام"
+      "systems": "حسب الأهلية",
+      "eligibility": "كارت • كنترول • حسب النظام"
     },
     {
       "id": "vf_credit_transfer",
@@ -193,7 +39,8 @@
       "description": "تحويل رصيد إلى رقم فودافون؛ راجع الرسوم والشروط قبل التأكيد.",
       "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "vf_loan",
@@ -205,7 +52,8 @@
       "description": "خدمة سلفني شكراً؛ قد تطبق رسوم وشروط أهلية.",
       "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "vf_last_recharge",
@@ -217,7 +65,8 @@
       "description": "معرفة آخر موعد للشحن.",
       "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "vf_recharge",
@@ -229,7 +78,8 @@
       "description": "شحن الرصيد بكارت الشحن.",
       "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
       "id": "vf_recharge_card",
@@ -241,31 +91,37 @@
       "description": "استبدل رقم الكارت بالرقم المطبوع على الكارت.",
       "verified": true,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة",
+      "legacyIds": [
+        "vf_recharge2"
+      ]
     },
     {
-      "id": "vf_recharge2",
+      "id": "vf_flex_manage",
       "providerId": "vodafone",
       "providerName": "Vodafone",
-      "title": "شحن كارت فودافون",
-      "code": "*858*رقم الكارت#",
-      "category": "الشحن",
-      "description": "أدخل رقم كارت الشحن مكان القالب.",
+      "title": "إدارة باقة فليكس",
+      "code": "*880#",
+      "category": "الباقات",
+      "description": "قائمة إدارة وتجديد باقات فليكس.",
       "verified": true,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كارت / مسبق الدفع"
+      "systems": "باقة محددة",
+      "eligibility": "فليكس"
     },
     {
-      "id": "vf_cash_menu",
+      "id": "vf_remaining_units",
       "providerId": "vodafone",
       "providerName": "Vodafone",
-      "title": "قائمة فودافون كاش",
-      "code": "*9#",
-      "category": "المحفظة",
-      "description": "فتح قائمة خدمات فودافون كاش؛ الخدمات المالية قد تتطلب رقمًا سريًا وتأكيدًا.",
-      "verified": true,
+      "title": "المتبقي من الدقائق والرسائل",
+      "code": "*555#",
+      "category": "الباقات",
+      "description": "الاستعلام عن المتبقي من الدقائق والرسائل والساعات المجانية.",
+      "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "الخطوط المفعّل عليها Vodafone Cash"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "vf_last_call",
@@ -277,7 +133,8 @@
       "description": "الاستعلام عن آخر مكالمة سابقة.",
       "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "vf_missed_keeper",
@@ -289,55 +146,105 @@
       "description": "خدمة الاحتفاظ بالمكالمات؛ قد تكون باشتراك مدفوع.",
       "verified": true,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كارت • كنترول • فري • بيزنس"
+      "systems": "حسب الأهلية",
+      "eligibility": "كارت • كنترول • فري • بيزنس"
     },
     {
       "id": "vf_call_me",
       "providerId": "vodafone",
       "providerName": "Vodafone",
-      "title": "كلمني شكراً",
+      "title": "كلمني شكراً (لرقم فودافون)",
       "code": "*505*رقم الموبايل#",
       "category": "المكالمات",
       "description": "أرسل طلب كلمني إلى رقم فودافون.",
       "verified": true,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كارت / مسبق الدفع"
-    },
-    {
-      "id": "vf_call_me_other",
-      "providerId": "vodafone",
-      "providerName": "Vodafone",
-      "title": "كلمني شكراً لشبكة أخرى",
-      "code": "*506*رقم الموبايل#",
-      "category": "المكالمات",
-      "description": "إرسال رسالة كلمني شكراً لشبكة أخرى.",
-      "verified": false,
-      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "مسبق الدفع",
+      "eligibility": "كارت / مسبق الدفع",
+      "legacyIds": [
+        "vf_call_me_vf"
+      ]
     },
     {
       "id": "vf_call_me_other2",
       "providerId": "vodafone",
       "providerName": "Vodafone",
-      "title": "كلمني شكراً لشبكة أخرى",
+      "title": "كلمني شكراً (لشبكة أخرى)",
       "code": "*506*رقم الموبايل#",
       "category": "المكالمات",
       "description": "أرسل طلب كلمني إلى رقم على شبكة أخرى.",
       "verified": true,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كارت / مسبق الدفع"
+      "systems": "مسبق الدفع",
+      "eligibility": "كارت / مسبق الدفع",
+      "legacyIds": [
+        "vf_call_me_other"
+      ]
     },
     {
-      "id": "vf_call_me_vf",
+      "id": "vf_cash_menu",
       "providerId": "vodafone",
       "providerName": "Vodafone",
-      "title": "كلمني شكراً لفودافون",
-      "code": "*505*رقم الموبايل#",
-      "category": "المكالمات",
-      "description": "إرسال رسالة كلمني شكراً لرقم فودافون.",
+      "title": "قائمة فودافون كاش",
+      "code": "*9#",
+      "category": "المحفظة",
+      "description": "فتح قائمة خدمات فودافون كاش؛ الخدمات المالية قد تتطلب رقمًا سريًا وتأكيدًا.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "محفظة",
+      "eligibility": "الخطوط المفعّل عليها Vodafone Cash"
+    },
+    {
+      "id": "vf_customer",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "خدمة عملاء فودافون",
+      "code": "888",
+      "category": "الدعم",
+      "description": "الاتصال بخدمة عملاء فودافون من خط فودافون.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
+    },
+    {
+      "id": "vf_cash_customer",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "خدمة عملاء فودافون كاش",
+      "code": "7001",
+      "category": "الدعم",
+      "description": "رقم خدمة عملاء فودافون كاش.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "محفظة",
+      "eligibility": "الخطوط المفعّل عليها Vodafone Cash"
+    },
+    {
+      "id": "vf_customer_any",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "خدمة عملاء فودافون من أي شبكة",
+      "code": "16888",
+      "category": "الدعم",
+      "description": "رقم خدمة عملاء فودافون من أي خط محمول.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
+    },
+    {
+      "id": "vf_services",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "قائمة خدمات فودافون",
+      "code": "*888#",
+      "category": "إدارة الخط",
+      "description": "قائمة خدمات فودافون المختصرة.",
       "verified": false,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
       "id": "vf_date_time",
@@ -345,227 +252,83 @@
       "providerName": "Vodafone",
       "title": "معرفة التاريخ والوقت",
       "code": "*100#",
-      "category": "معلومات الخط",
+      "category": "إدارة الخط",
       "description": "عرض التاريخ والوقت.",
       "verified": true,
       "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
-      "systems": "كل الأنظمة"
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة",
+      "legacyIds": [
+        "vf_datetime"
+      ]
     },
     {
-      "id": "orange_go_remaining",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "المتبقي من باقة GO",
-      "code": "#136#",
-      "category": "الإنترنت",
-      "description": "معرفة المتبقي من باقات إنترنت GO.",
+      "id": "vf_puk",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "معرفة رقم PUK",
+      "code": "*888*رقم التليفون#",
+      "category": "إدارة الخط",
+      "description": "صيغة الاستعلام عن PUK؛ استبدل رقم التليفون بالرقم المطلوب.",
+      "verified": true,
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة",
+      "legacyIds": [
+        "vf_puk_ar"
+      ]
+    },
+    {
+      "id": "vf_number",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "معرفة رقم الخط",
+      "code": "*878#",
+      "category": "إدارة الخط",
+      "description": "معرفة رقم هاتفك.",
       "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
-      "id": "orange_go_remaining2",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "المتبقي من باقة GO (كود بديل)",
-      "code": "*136#",
-      "category": "الإنترنت",
-      "description": "معرفة المتبقي من باقات GO.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "GO إنترنت"
-    },
-    {
-      "id": "orange_go_subscribe",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقات GO للإنترنت",
-      "code": "*222#",
-      "category": "الإنترنت",
-      "description": "قائمة باقات GO للإنترنت.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "GO إنترنت"
-    },
-    {
-      "id": "orange_go",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقات إنترنت GO",
-      "code": "#222#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقات GO؛ المتبقي عبر #136#.",
+      "id": "vf_live_off",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "إيقاف Vodafone Live",
+      "code": "*888*41#",
+      "category": "خدمات إضافية",
+      "description": "إيقاف خدمة Vodafone Live.",
       "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
-      "id": "orange_go_home",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقة GO @Home",
-      "code": "#222*41#",
-      "category": "الإنترنت",
-      "description": "باقة مخصصة للمواقع التعليمية والعمل؛ راجع التفاصيل الحالية.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
-      "systems": "GO المؤهلة"
-    },
-    {
-      "id": "orange_go_play_daily",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقة GO Play اليومية",
-      "code": "#222*11#",
-      "category": "الإنترنت",
-      "description": "باقة GO Play اليومية؛ تحقق من السعر والصلاحية قبل الاشتراك.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
-      "systems": "GO المؤهلة"
-    },
-    {
-      "id": "orange_go_extra_tiktok",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقة GO TikTok",
-      "code": "#222*55#",
-      "category": "الإنترنت",
-      "description": "باقة GO TikTok؛ راجع السعر والصلاحية داخل My Orange قبل الاشتراك.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
-      "systems": "GO المؤهلة"
-    },
-    {
-      "id": "orange_go_video_daily",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقة GO فيديو اليومية",
-      "code": "#222*21#",
-      "category": "الإنترنت",
-      "description": "باقة فيديو يومية؛ تحقق من السعر والتطبيقات المشمولة قبل الاشتراك.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
-      "systems": "GO المؤهلة"
-    },
-    {
-      "id": "orange_manage",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "إدارة النظام والتجديد",
-      "code": "*0#",
-      "category": "الباقات",
-      "description": "إدارة الباقة ومعرفة موعد التجديد وتجديدها والتحكم في النظام.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "orange_big",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقات كروت الكبير",
-      "code": "#175#",
-      "category": "الباقات",
-      "description": "الاشتراك ومعرفة المتبقي من باقات كروت الكبير.",
+      "id": "vf_live_on",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "تشغيل Vodafone Live",
+      "code": "*888*4#",
+      "category": "خدمات إضافية",
+      "description": "تشغيل خدمة Vodafone Live.",
       "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
-      "id": "orange_kbeer",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "باقات كروت الكبير",
-      "code": "*175#",
-      "category": "الباقات",
-      "description": "إدارة باقات كروت الكبير.",
+      "id": "vf_roaming",
+      "providerId": "vodafone",
+      "providerName": "Vodafone",
+      "title": "خدمات التجوال",
+      "code": "*888*5#",
+      "category": "خدمات إضافية",
+      "description": "قائمة/تفعيل خدمات التجوال؛ راجع الأسعار قبل الاستخدام.",
       "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "كارت / مسبق الدفع"
-    },
-    {
-      "id": "orange_main_menu",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "قائمة الرصيد والتجديد",
-      "code": "#0#",
-      "category": "الباقات",
-      "description": "معرفة الرصيد وموعد التجديد وتجديد الباقة والتحكم في النظام.",
-      "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "orange_main",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "قائمة إدارة الحساب والباقات",
-      "code": "*100#",
-      "category": "الحساب",
-      "description": "قائمة الرصيد والخدمات والحساب وباقات الإنترنت.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "orange_first_class",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "خدمة عملاء First Class",
-      "code": "2000",
-      "category": "الدعم",
-      "description": "رقم مخصص لعملاء First Class والفاتورة.",
-      "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "orange_customer",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "خدمة عملاء أورنج",
-      "code": "110",
-      "category": "الدعم",
-      "description": "الاتصال بخدمة العملاء من خط أورنج.",
-      "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "orange_customer2",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "خدمة عملاء أورنج",
-      "code": "110",
-      "category": "الدعم",
-      "description": "الاتصال بخدمة عملاء أورنج.",
-      "verified": true,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "orange_business",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "خدمة عملاء الشركات",
-      "code": "250",
-      "category": "الدعم",
-      "description": "التواصل مع خدمة عملاء الشركات.",
-      "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "orange_400",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "قائمة خدمات أورنج عبر 400",
-      "code": "400",
-      "category": "الدعم",
-      "description": "رقم أورنج للشحن ومعرفة الرصيد والنظام الحالي والاشتراك في باقات الإنترنت وخدمات أخرى وفق دليل الشركة.",
-      "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "كل الأنظمة"
+      "sourceUrl": "https://web.vodafone.com.eg/ar/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب أهلية الخط"
     },
     {
       "id": "orange_account",
@@ -577,7 +340,8 @@
       "description": "معرفة الرصيد والخدمات وإدارة الحساب والاشتراك في باقات الإنترنت.",
       "verified": false,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "orange_credit_control",
@@ -589,7 +353,8 @@
       "description": "استقبال رسالة باستهلاك آخر 24 ساعة؛ رسالة مجانية مرة يومياً وفق الشروط المنشورة.",
       "verified": false,
       "sourceUrl": "https://www.orange.eg/ar/services/credit-management",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "orange_balance",
@@ -601,7 +366,8 @@
       "description": "الاستعلام عن الرصيد والمبالغ المستحقة.",
       "verified": true,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "orange_balance_due",
@@ -613,19 +379,47 @@
       "description": "الاستعلام عن الرصيد والمبالغ المستحقة.",
       "verified": false,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
-      "id": "orange_daily",
+      "id": "orange_manage",
       "providerId": "orange",
       "providerName": "Orange",
-      "title": "عروض 012 اليومية",
-      "code": "#012#",
-      "category": "العروض",
-      "description": "الاشتراك في عروض 012 اليومية.",
+      "title": "إدارة النظام والتجديد",
+      "code": "*0#",
+      "category": "الباقات",
+      "description": "إدارة الباقة ومعرفة موعد التجديد وتجديدها والتحكم في النظام.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "orange_big",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "الاشتراك والمتبقي من كروت الكبير",
+      "code": "#175#",
+      "category": "الباقات",
+      "description": "الاشتراك ومعرفة المتبقي من باقات كروت الكبير.",
       "verified": false,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "orange_kbeer",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "إدارة باقات كروت الكبير",
+      "code": "*175#",
+      "category": "الباقات",
+      "description": "إدارة باقات كروت الكبير.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "مسبق الدفع",
+      "eligibility": "كارت / مسبق الدفع"
     },
     {
       "id": "orange_012_offers",
@@ -633,11 +427,132 @@
       "providerName": "Orange",
       "title": "عروض 012 اليومية",
       "code": "#012#",
-      "category": "العروض",
+      "category": "الباقات",
       "description": "الاشتراك أو استعراض عروض 012 اليومية وفق القائمة المتاحة للخط.",
       "verified": true,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "كل الأنظمة المؤهلة"
+      "systems": "حسب الأهلية",
+      "eligibility": "كل الأنظمة المؤهلة",
+      "legacyIds": [
+        "orange_daily"
+      ]
+    },
+    {
+      "id": "orange_main_menu",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "قائمة الرصيد والتجديد",
+      "code": "#0#",
+      "category": "الباقات",
+      "description": "معرفة الرصيد وموعد التجديد وتجديد الباقة والتحكم في النظام.",
+      "verified": false,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "orange_go_remaining2",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "المتبقي من باقة GO",
+      "code": "*136#",
+      "category": "الإنترنت",
+      "description": "معرفة المتبقي من باقات GO.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "باقة محددة",
+      "eligibility": "GO إنترنت"
+    },
+    {
+      "id": "orange_go_remaining",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "المتبقي من باقة GO (كود بديل)",
+      "code": "#136#",
+      "category": "الإنترنت",
+      "description": "معرفة المتبقي من باقات إنترنت GO.",
+      "verified": false,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "orange_go_subscribe",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقات GO للإنترنت",
+      "code": "*222#",
+      "category": "الإنترنت",
+      "description": "قائمة باقات GO للإنترنت.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "باقة محددة",
+      "eligibility": "GO إنترنت"
+    },
+    {
+      "id": "orange_go",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقات إنترنت GO",
+      "code": "#222#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقات GO؛ المتبقي عبر #136#.",
+      "verified": false,
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "orange_go_home",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقة GO @Home",
+      "code": "#222*41#",
+      "category": "الإنترنت",
+      "description": "باقة مخصصة للمواقع التعليمية والعمل؛ راجع التفاصيل الحالية.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
+      "systems": "حسب الأهلية",
+      "eligibility": "GO المؤهلة"
+    },
+    {
+      "id": "orange_go_play_daily",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقة GO Play اليومية",
+      "code": "#222*11#",
+      "category": "الإنترنت",
+      "description": "باقة GO Play اليومية؛ تحقق من السعر والصلاحية قبل الاشتراك.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
+      "systems": "حسب الأهلية",
+      "eligibility": "GO المؤهلة"
+    },
+    {
+      "id": "orange_go_extra_tiktok",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقة GO TikTok",
+      "code": "#222*55#",
+      "category": "الإنترنت",
+      "description": "باقة GO TikTok؛ راجع السعر والصلاحية داخل My Orange قبل الاشتراك.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
+      "systems": "حسب الأهلية",
+      "eligibility": "GO المؤهلة"
+    },
+    {
+      "id": "orange_go_video_daily",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "باقة GO فيديو اليومية",
+      "code": "#222*21#",
+      "category": "الإنترنت",
+      "description": "باقة فيديو يومية؛ تحقق من السعر والتطبيقات المشمولة قبل الاشتراك.",
+      "verified": true,
+      "sourceUrl": "https://www.orange.eg/ar/internet/go-extra",
+      "systems": "حسب الأهلية",
+      "eligibility": "GO المؤهلة"
     },
     {
       "id": "orange_cash_menu",
@@ -649,19 +564,8 @@
       "description": "قائمة خدمات محفظة Orange Cash.",
       "verified": true,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "محفظة Orange Cash"
-    },
-    {
-      "id": "orange_cash",
-      "providerId": "orange",
-      "providerName": "Orange",
-      "title": "إدارة Orange Cash",
-      "code": "#7115#",
-      "category": "المحفظة",
-      "description": "إدارة محفظة أورنج كاش.",
-      "verified": false,
-      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "محفظة",
+      "eligibility": "محفظة Orange Cash"
     },
     {
       "id": "orange_cash_manage",
@@ -673,7 +577,11 @@
       "description": "قائمة إدارة محفظة أورنج كاش.",
       "verified": true,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "الخطوط المفعّل عليها Orange Cash"
+      "systems": "محفظة",
+      "eligibility": "الخطوط المفعّل عليها Orange Cash",
+      "legacyIds": [
+        "orange_cash"
+      ]
     },
     {
       "id": "orange_cash_customer",
@@ -685,331 +593,89 @@
       "description": "رقم خدمة عملاء محفظة أورنج كاش.",
       "verified": false,
       "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
-      "systems": "حسب نظام الخط"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط"
     },
     {
-      "id": "we_internet_cancel",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "إلغاء باقة الإنترنت",
-      "code": "*999*0#",
-      "category": "الإنترنت",
-      "description": "إلغاء باقة الإنترنت وفق دليل الشركة.",
+      "id": "orange_first_class",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "خدمة عملاء First Class",
+      "code": "2000",
+      "category": "الدعم",
+      "description": "رقم مخصص لعملاء First Class والفاتورة.",
       "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
-      "id": "we_internet_cancel_official",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "إلغاء باقة الإنترنت",
-      "code": "*999*0#",
-      "category": "الإنترنت",
-      "description": "إلغاء باقة الإنترنت؛ تأكد من أثر الإلغاء قبل التأكيد.",
+      "id": "orange_customer2",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "خدمة عملاء أورنج",
+      "code": "110",
+      "category": "الدعم",
+      "description": "الاتصال بخدمة عملاء أورنج.",
       "verified": true,
-      "sourceUrl": "https://www.te.eg/about-te/faq",
-      "systems": "أنظمة WE المؤهلة للإنترنت"
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة",
+      "legacyIds": [
+        "orange_customer"
+      ]
     },
     {
-      "id": "we_internet",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقات الإنترنت",
-      "code": "*999#",
-      "category": "الإنترنت",
-      "description": "قائمة الاشتراك في باقات الإنترنت.",
+      "id": "orange_business",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "خدمة عملاء الشركات",
+      "code": "250",
+      "category": "الدعم",
+      "description": "التواصل مع خدمة عملاء الشركات.",
       "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
-      "id": "we_internet_1gb",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة 1 جيجابايت لمرة واحدة",
-      "code": "*999*101#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة 1 جيجابايت لمرة واحدة.",
+      "id": "orange_400",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "قائمة خدمات أورنج عبر 400",
+      "code": "400",
+      "category": "الدعم",
+      "description": "رقم أورنج للشحن ومعرفة الرصيد والنظام الحالي والاشتراك في باقات الإنترنت وخدمات أخرى وفق دليل الشركة.",
       "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
-      "id": "we_internet_10",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت 10 جنيه",
-      "code": "*999*10#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت 10 جنيه.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_internet_100",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت 100 جنيه",
-      "code": "*999*100#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت 100 جنيه.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_internet_20",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت 20 جنيه",
-      "code": "*999*20#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت 20 جنيه.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_internet_200",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت 200 جنيه",
-      "code": "*999*200#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت 200 جنيه.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_internet_40",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت 40 جنيه",
-      "code": "*999*40#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت 40 جنيه.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_internet_70",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت 70 جنيه",
-      "code": "*999*70#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت 70 جنيه.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_internet_daily",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت اليومية",
-      "code": "*999*01#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت اليومية.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_daily_internet",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقة الإنترنت اليومية",
-      "code": "*999*01#",
-      "category": "الإنترنت",
-      "description": "الاشتراك في باقة الإنترنت اليومية.",
+      "id": "orange_main",
+      "providerId": "orange",
+      "providerName": "Orange",
+      "title": "قائمة إدارة الحساب والباقات",
+      "code": "*100#",
+      "category": "إدارة الخط",
+      "description": "قائمة الرصيد والخدمات والحساب وباقات الإنترنت.",
       "verified": true,
-      "sourceUrl": "https://www.te.eg/about-te/faq",
-      "systems": "أنظمة WE المؤهلة للإنترنت"
+      "sourceUrl": "https://www.orange.eg/ar/help/short-numbers",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
-      "id": "we_internet_renew",
+      "id": "we_bill_limit",
       "providerId": "we",
       "providerName": "WE",
-      "title": "تجديد باقة الإنترنت",
-      "code": "*999*2#",
-      "category": "الإنترنت",
-      "description": "تجديد باقتك في أي وقت.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_nitro_transfer",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "تحويل ميجابايتس Nitro",
-      "code": "*552#",
-      "category": "الإنترنت",
-      "description": "خدمة تحويل ميجابايتس لعملاء WE الآخرين وفق الشروط.",
+      "title": "التحكم في حد الفاتورة",
+      "code": "*883#",
+      "category": "الرصيد",
+      "description": "اختيار حد مسبق للفاتورة.",
       "verified": true,
       "sourceUrl": "https://www.te.eg/ar/web/guest/personal/services/mobile-call-services",
-      "systems": "Nitro"
-    },
-    {
-      "id": "we_remaining",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "المتبقي من الباقة",
-      "code": "*414#",
-      "category": "الباقات",
-      "description": "معرفة الوحدات المتبقية في الباقة.",
-      "verified": true,
-      "sourceUrl": "https://www.te.eg/en/about-te/faq",
-      "systems": "صوت / بيانات حسب النظام"
-    },
-    {
-      "id": "we_mix",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقات WE Mix",
-      "code": "*100#",
-      "category": "الباقات",
-      "description": "الاشتراك في باقات وي ميكس.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_tazbeet",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقات تظبيط",
-      "code": "*660#",
-      "category": "الباقات",
-      "description": "الاشتراك في باقات تظبيط.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_super_kix",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "باقات سوبر كيكيس",
-      "code": "*707#",
-      "category": "الباقات",
-      "description": "الاشتراك في باقات سوبر كيكيس.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_mix_menu",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "قائمة باقات WE Mix",
-      "code": "*100#",
-      "category": "الباقات",
-      "description": "الاشتراك في باقات WE Mix.",
-      "verified": true,
-      "sourceUrl": "https://www.te.eg/about-te/faq",
-      "systems": "الأنظمة المؤهلة"
-    },
-    {
-      "id": "we_tazbeet_menu",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "قائمة باقات تظبيط",
-      "code": "*660#",
-      "category": "الباقات",
-      "description": "الاشتراك في باقات تظبيط.",
-      "verified": true,
-      "sourceUrl": "https://www.te.eg/about-te/faq",
-      "systems": "الأنظمة المؤهلة"
-    },
-    {
-      "id": "we_super_kix_menu",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "قائمة باقات سوبر كيكيس",
-      "code": "*707#",
-      "category": "الباقات",
-      "description": "الاشتراك في باقات سوبر كيكيس.",
-      "verified": true,
-      "sourceUrl": "https://www.te.eg/about-te/faq",
-      "systems": "الأنظمة المؤهلة"
-    },
-    {
-      "id": "we_bundle",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "معرفة المتبقي من الباقة",
-      "code": "*414#",
-      "category": "الباقات",
-      "description": "الاستعلام عن المتبقي من الباقة.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_directory",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "خدمة الدليل",
-      "code": "140",
-      "category": "الدعم",
-      "description": "خدمة الدليل؛ التكلفة المنشورة 50 قرش للمكالمة.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "we_directory_short",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "خدمة دليل WE",
-      "code": "140",
-      "category": "الدعم",
-      "description": "خدمة الدليل؛ قد تكون المكالمة مدفوعة.",
-      "verified": true,
-      "sourceUrl": "https://www.te.eg/about-te/faq",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "we_customer",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "خدمة عملاء WE",
-      "code": "111",
-      "category": "الدعم",
-      "description": "رقم خدمة العملاء؛ التكلفة المنشورة 14 قرش للمكالمة.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "we_customer_short",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "خدمة عملاء WE",
-      "code": "111",
-      "category": "الدعم",
-      "description": "رقم خدمة عملاء WE؛ تكلفة المكالمة حسب تعريفة الشركة المنشورة.",
-      "verified": true,
-      "sourceUrl": "https://www.te.eg/about-te/faq",
-      "systems": "كل الأنظمة"
-    },
-    {
-      "id": "we_number",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "معرفة رقمك",
-      "code": "*688#",
-      "category": "الدعم",
-      "description": "معرفة رقم خط WE.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "كل الأنظمة"
+      "systems": "فاتورة",
+      "eligibility": "فاتورة"
     },
     {
       "id": "we_transfer",
@@ -1021,19 +687,8 @@
       "description": "تحويل رصيد؛ رسوم 2% بحد أدنى 20 قرش وفق الشروط المنشورة.",
       "verified": false,
       "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
-    },
-    {
-      "id": "we_loan",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "سلفني",
-      "code": "*504#",
-      "category": "الرصيد",
-      "description": "خدمة سلفني؛ الرسوم المنشورة 50 قرش.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "we_safelny",
@@ -1045,7 +700,11 @@
       "description": "خدمة سلفني؛ تطبق شروط ورسوم الشركة.",
       "verified": true,
       "sourceUrl": "https://www.te.eg/en/about-te/faq",
-      "systems": "كارت / مسبق الدفع"
+      "systems": "مسبق الدفع",
+      "eligibility": "كارت / مسبق الدفع",
+      "legacyIds": [
+        "we_loan"
+      ]
     },
     {
       "id": "we_balance",
@@ -1057,7 +716,8 @@
       "description": "الاستعلام عن الرصيد مجاناً وفق صفحة الشركة.",
       "verified": false,
       "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
     },
     {
       "id": "we_recharge",
@@ -1069,19 +729,234 @@
       "description": "شحن الرصيد باستخدام كود كارت الشحن.",
       "verified": false,
       "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "كل الأنظمة"
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
-      "id": "we_bill_limit",
+      "id": "we_remaining",
       "providerId": "we",
       "providerName": "WE",
-      "title": "التحكم في حد الفاتورة",
-      "code": "*883#",
-      "category": "الفواتير",
-      "description": "اختيار حد مسبق للفاتورة.",
+      "title": "المتبقي من الباقة",
+      "code": "*414#",
+      "category": "الباقات",
+      "description": "معرفة الوحدات المتبقية في الباقة.",
+      "verified": true,
+      "sourceUrl": "https://www.te.eg/en/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "صوت / بيانات حسب النظام",
+      "legacyIds": [
+        "we_bundle"
+      ]
+    },
+    {
+      "id": "we_mix_menu",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "قائمة باقات WE Mix",
+      "code": "*100#",
+      "category": "الباقات",
+      "description": "الاشتراك في باقات WE Mix.",
+      "verified": true,
+      "sourceUrl": "https://www.te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "الأنظمة المؤهلة",
+      "legacyIds": [
+        "we_mix"
+      ]
+    },
+    {
+      "id": "we_tazbeet_menu",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "قائمة باقات تظبيط",
+      "code": "*660#",
+      "category": "الباقات",
+      "description": "الاشتراك في باقات تظبيط.",
+      "verified": true,
+      "sourceUrl": "https://www.te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "الأنظمة المؤهلة",
+      "legacyIds": [
+        "we_tazbeet"
+      ]
+    },
+    {
+      "id": "we_super_kix_menu",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "قائمة باقات سوبر كيكيس",
+      "code": "*707#",
+      "category": "الباقات",
+      "description": "الاشتراك في باقات سوبر كيكيس.",
+      "verified": true,
+      "sourceUrl": "https://www.te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "الأنظمة المؤهلة",
+      "legacyIds": [
+        "we_super_kix"
+      ]
+    },
+    {
+      "id": "we_internet_cancel_official",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "إلغاء باقة الإنترنت",
+      "code": "*999*0#",
+      "category": "الإنترنت",
+      "description": "إلغاء باقة الإنترنت؛ تأكد من أثر الإلغاء قبل التأكيد.",
+      "verified": true,
+      "sourceUrl": "https://www.te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "أنظمة WE المؤهلة للإنترنت",
+      "legacyIds": [
+        "we_internet_cancel"
+      ]
+    },
+    {
+      "id": "we_internet",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقات الإنترنت",
+      "code": "*999#",
+      "category": "الإنترنت",
+      "description": "قائمة الاشتراك في باقات الإنترنت.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_internet_1gb",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة 1 جيجابايت لمرة واحدة",
+      "code": "*999*101#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة 1 جيجابايت لمرة واحدة.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_internet_10",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة الإنترنت 10 جنيه",
+      "code": "*999*10#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة الإنترنت 10 جنيه.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_internet_100",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة الإنترنت 100 جنيه",
+      "code": "*999*100#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة الإنترنت 100 جنيه.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_internet_20",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة الإنترنت 20 جنيه",
+      "code": "*999*20#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة الإنترنت 20 جنيه.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_internet_200",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة الإنترنت 200 جنيه",
+      "code": "*999*200#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة الإنترنت 200 جنيه.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_internet_40",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة الإنترنت 40 جنيه",
+      "code": "*999*40#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة الإنترنت 40 جنيه.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_internet_70",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة الإنترنت 70 جنيه",
+      "code": "*999*70#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة الإنترنت 70 جنيه.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_daily_internet",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "باقة الإنترنت اليومية",
+      "code": "*999*01#",
+      "category": "الإنترنت",
+      "description": "الاشتراك في باقة الإنترنت اليومية.",
+      "verified": true,
+      "sourceUrl": "https://www.te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "أنظمة WE المؤهلة للإنترنت",
+      "legacyIds": [
+        "we_internet_daily"
+      ]
+    },
+    {
+      "id": "we_internet_renew",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "تجديد باقة الإنترنت",
+      "code": "*999*2#",
+      "category": "الإنترنت",
+      "description": "تجديد باقتك في أي وقت.",
+      "verified": false,
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط"
+    },
+    {
+      "id": "we_nitro_transfer",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "تحويل ميجابايتس Nitro",
+      "code": "*552#",
+      "category": "الإنترنت",
+      "description": "خدمة تحويل ميجابايتس لعملاء WE الآخرين وفق الشروط.",
       "verified": true,
       "sourceUrl": "https://www.te.eg/ar/web/guest/personal/services/mobile-call-services",
-      "systems": "فاتورة"
+      "systems": "باقة محددة",
+      "eligibility": "Nitro"
     },
     {
       "id": "we_call_keeper",
@@ -1093,19 +968,8 @@
       "description": "استقبال تنبيه بالمكالمات التي حاولت الوصول إليك.",
       "verified": true,
       "sourceUrl": "https://www.te.eg/ar/web/guest/personal/services/mobile-call-services",
-      "systems": "حسب النظام"
-    },
-    {
-      "id": "we_call_me",
-      "providerId": "we",
-      "providerName": "WE",
-      "title": "كلمني",
-      "code": "*515*رقم المستلم#",
-      "category": "المكالمات",
-      "description": "إرسال طلب كلمني؛ خمس طلبات مجانية يومياً وفق الصفحة.",
-      "verified": false,
-      "sourceUrl": "https://te.eg/about-te/faq",
-      "systems": "حسب نظام الخط"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب النظام"
     },
     {
       "id": "we_kalemny",
@@ -1117,139 +981,56 @@
       "description": "إرسال رسالة اطلب مني الاتصال بك.",
       "verified": true,
       "sourceUrl": "https://www.te.eg/en/about-te/faq",
-      "systems": "كارت / مسبق الدفع"
+      "systems": "مسبق الدفع",
+      "eligibility": "كارت / مسبق الدفع",
+      "legacyIds": [
+        "we_call_me"
+      ]
     },
     {
-      "id": "et_hekaya_family",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "إدارة خطوط العائلة",
-      "code": "*319#",
-      "category": "إدارة الخط",
-      "description": "إضافة أو إزالة خط من باقة العائلة والاستعلام عن الرصيد.",
+      "id": "we_directory_short",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "خدمة دليل WE",
+      "code": "140",
+      "category": "الدعم",
+      "description": "خدمة الدليل؛ قد تكون المكالمة مدفوعة.",
       "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية العيلة"
+      "sourceUrl": "https://www.te.eg/about-te/faq",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة",
+      "legacyIds": [
+        "we_directory"
+      ]
     },
     {
-      "id": "et_hekaya_data_limit",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "التحكم في حد الإنترنت",
-      "code": "*808#",
-      "category": "إدارة الخط",
-      "description": "تحديد الحد الأقصى لاستخدام الإنترنت.",
+      "id": "we_customer_short",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "خدمة عملاء WE",
+      "code": "111",
+      "category": "الدعم",
+      "description": "رقم خدمة عملاء WE؛ تكلفة المكالمة حسب تعريفة الشركة المنشورة.",
       "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
+      "sourceUrl": "https://www.te.eg/about-te/faq",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة",
+      "legacyIds": [
+        "we_customer"
+      ]
     },
     {
-      "id": "et_hekaya_minutes_limit",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "حد الدقائق للشبكات الأخرى",
-      "code": "*806#",
+      "id": "we_number",
+      "providerId": "we",
+      "providerName": "WE",
+      "title": "معرفة رقمك",
+      "code": "*688#",
       "category": "إدارة الخط",
-      "description": "تحديد الحد الأقصى للدقائق للشبكات الأخرى.",
-      "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_hekaya_international",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "خدمة المكالمات الدولية",
-      "code": "*304#",
-      "category": "إدارة الخط",
-      "description": "إدارة خدمة المكالمات الدولية.",
-      "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_hekaya_offers",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "عروض حكاية",
-      "code": "*011#",
-      "category": "إدارة الخط",
-      "description": "عرض العروض والمفاجآت المتاحة لحساب حكاية.",
-      "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_hekaya_menu",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "قائمة حكاية والخدمات",
-      "code": "*3333#",
-      "category": "إدارة الخط",
-      "description": "العروض وخدمات حكاية والاستعلام عن الباقة والرصيد.",
-      "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_data_usage",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "استهلاك الإنترنت",
-      "code": "*808#",
-      "category": "الإنترنت",
-      "description": "الاستعلام عن استهلاك الإنترنت لعملاء حكاية وفق إتاحة النظام. (لم يتم اعتماد هذا السجل كموثق حتى مراجعة صفحة الخدمة التفصيلية من الشركة).",
+      "description": "معرفة رقم خط WE.",
       "verified": false,
-      "sourceUrl": "https://www.etisalat.eg/",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_hekaya",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "إدارة باقة حكاية",
-      "code": "*3333#",
-      "category": "الباقات",
-      "description": "إدارة نظام حكاية؛ تحقق من القائمة التي تظهر لك. (لم يتم اعتماد هذا السجل كموثق حتى مراجعة صفحة الخدمة التفصيلية من الشركة).",
-      "verified": false,
-      "sourceUrl": "https://www.etisalat.eg/",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_hekaya_weekly_renew",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "التجديد الأسبوعي لحكاية",
-      "code": "*809#",
-      "category": "الباقات",
-      "description": "خيارات التجديد الأسبوعي لعملاء حكاية.",
-      "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_hekaya_early_renew",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "التجديد المبكر لحكاية",
-      "code": "*807#",
-      "category": "الباقات",
-      "description": "تجديد باقة حكاية مبكرًا؛ قد يؤدي إلى خصم قيمة التجديد.",
-      "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
-    },
-    {
-      "id": "et_hekaya_extra",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "باقات حكاية الإضافية",
-      "code": "*626#",
-      "category": "الباقات",
-      "description": "إدارة وشراء الباقات الإضافية.",
-      "verified": true,
-      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
-      "systems": "حكاية"
+      "sourceUrl": "https://te.eg/about-te/faq",
+      "systems": "كل الأنظمة",
+      "eligibility": "كل الأنظمة"
     },
     {
       "id": "et_transfer_postpaid",
@@ -1258,10 +1039,11 @@
       "title": "تحويل رصيد لعملاء الفاتورة",
       "code": "*770# ثم رقم الهاتف ثم *المبلغ#",
       "category": "الرصيد",
-      "description": "خطوات تحويل الرصيد لعملاء الفاتورة وفق تعليمات الشركة. (لم يتم اعتماد هذا السجل كموثق حتى مراجعة صفحة الخدمة التفصيلية من الشركة).",
+      "description": "خطوات تحويل الرصيد لعملاء الفاتورة وفق تعليمات الشركة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/balance_transfer.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_transfer_card",
@@ -1273,7 +1055,8 @@
       "description": "تحويل الرصيد لعملاء الكارت؛ حدود وشروط التحويل منشورة بموقع الشركة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/balance_transfer.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "حسب الأهلية",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_transfer_prepaid",
@@ -1282,10 +1065,50 @@
       "title": "تحويل رصيد – مسبق الدفع",
       "code": "*557*رقم المستلم*المبلغ#",
       "category": "الرصيد",
-      "description": "تحويل رصيد لعميل آخر؛ تطبق حدود ورسوم وأهلية الشركة. (لم يتم اعتماد هذا السجل كموثق حتى مراجعة صفحة الخدمة التفصيلية من الشركة).",
+      "description": "تحويل رصيد لعميل آخر؛ تطبق حدود ورسوم وأهلية الشركة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/",
-      "systems": "مسبق الدفع"
+      "systems": "مسبق الدفع",
+      "eligibility": "مسبق الدفع"
+    },
+    {
+      "id": "et_hekaya_weekly_renew",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "التجديد الأسبوعي لحكاية",
+      "code": "*809#",
+      "category": "الباقات",
+      "description": "خيارات التجديد الأسبوعي لعملاء حكاية.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية"
+    },
+    {
+      "id": "et_hekaya_early_renew",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "التجديد المبكر لحكاية",
+      "code": "*807#",
+      "category": "الباقات",
+      "description": "تجديد باقة حكاية مبكرًا؛ قد يؤدي إلى خصم قيمة التجديد.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية"
+    },
+    {
+      "id": "et_hekaya_extra",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "باقات حكاية الإضافية",
+      "code": "*626#",
+      "category": "الباقات",
+      "description": "إدارة وشراء الباقات الإضافية.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية"
     },
     {
       "id": "et_wallet_13",
@@ -1297,7 +1120,8 @@
       "description": "إعدادات المحفظة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_15",
@@ -1309,7 +1133,8 @@
       "description": "إغلاق المحفظة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_10",
@@ -1321,7 +1146,8 @@
       "description": "خدمة التبرعات.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_1",
@@ -1333,7 +1159,8 @@
       "description": "تحويل الأموال من محفظة e& money.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_14",
@@ -1345,7 +1172,8 @@
       "description": "تقييم خدمات المحفظة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_8",
@@ -1357,7 +1185,8 @@
       "description": "إدارة الرقم السري للمحفظة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_9",
@@ -1369,7 +1198,8 @@
       "description": "دفع الفواتير من المحفظة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_7",
@@ -1381,7 +1211,8 @@
       "description": "دفع فواتير المرافق.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_4",
@@ -1393,7 +1224,11 @@
       "description": "الاستعلام عن رصيد المحفظة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة",
+      "legacyIds": [
+        "et_wallet_balance"
+      ]
     },
     {
       "id": "et_wallet_12",
@@ -1405,7 +1240,8 @@
       "description": "عرض سجل العمليات السابقة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_3",
@@ -1417,7 +1253,8 @@
       "description": "سحب أموال من ماكينة الصراف الآلي.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_11",
@@ -1429,7 +1266,8 @@
       "description": "سحب نقدي من فرع e&.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_2",
@@ -1441,7 +1279,8 @@
       "description": "شحن رصيد الهاتف من المحفظة.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_5",
@@ -1453,7 +1292,8 @@
       "description": "خدمات معاملات التاجر.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet_6",
@@ -1465,19 +1305,8 @@
       "description": "إنشاء كارت شراء أونلاين.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
-    },
-    {
-      "id": "et_wallet_balance",
-      "providerId": "etisalat",
-      "providerName": "e&",
-      "title": "رصيد محفظة e& money",
-      "code": "*777*4#",
-      "category": "المحفظة",
-      "description": "استعلام عن رصيد المحفظة الإلكترونية فقط. — يحتاج مراجعة مباشرة للكود من مصدر الشركة قبل اعتباره مؤكداً.",
-      "verified": false,
-      "sourceUrl": "https://www.etisalat.eg/portal/pages/services/eand_money.html",
-      "systems": "حسب نظام الخط أو تفعيل الخدمة"
+      "systems": "محفظة",
+      "eligibility": "حسب نظام الخط أو تفعيل الخدمة"
     },
     {
       "id": "et_wallet",
@@ -1486,10 +1315,95 @@
       "title": "قائمة خدمات e& money",
       "code": "*777#",
       "category": "المحفظة",
-      "description": "قائمة خدمات المحفظة الإلكترونية؛ استخدمها فقط على خطك المسجل. (لم يتم اعتماد هذا السجل كموثق حتى مراجعة صفحة الخدمة التفصيلية من الشركة).",
+      "description": "قائمة خدمات المحفظة الإلكترونية؛ استخدمها فقط على خطك المسجل.",
       "verified": false,
       "sourceUrl": "https://www.etisalat.eg/",
-      "systems": "e& money"
+      "systems": "محفظة",
+      "eligibility": "e& money"
+    },
+    {
+      "id": "et_hekaya_family",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "إدارة خطوط العائلة",
+      "code": "*319#",
+      "category": "إدارة الخط",
+      "description": "إضافة أو إزالة خط من باقة العائلة والاستعلام عن الرصيد.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية العيلة"
+    },
+    {
+      "id": "et_hekaya_data_limit",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "التحكم في حد الإنترنت واستهلاكه",
+      "code": "*808#",
+      "category": "إدارة الخط",
+      "description": "تحديد الحد الأقصى لاستخدام الإنترنت.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية",
+      "legacyIds": [
+        "et_data_usage"
+      ]
+    },
+    {
+      "id": "et_hekaya_minutes_limit",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "حد الدقائق للشبكات الأخرى",
+      "code": "*806#",
+      "category": "إدارة الخط",
+      "description": "تحديد الحد الأقصى للدقائق للشبكات الأخرى.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية"
+    },
+    {
+      "id": "et_hekaya_international",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "خدمة المكالمات الدولية",
+      "code": "*304#",
+      "category": "إدارة الخط",
+      "description": "إدارة خدمة المكالمات الدولية.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية"
+    },
+    {
+      "id": "et_hekaya_offers",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "عروض حكاية",
+      "code": "*011#",
+      "category": "إدارة الخط",
+      "description": "عرض العروض والمفاجآت المتاحة لحساب حكاية.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية"
+    },
+    {
+      "id": "et_hekaya_menu",
+      "providerId": "etisalat",
+      "providerName": "e&",
+      "title": "قائمة حكاية والخدمات",
+      "code": "*3333#",
+      "category": "إدارة الخط",
+      "description": "العروض وخدمات حكاية والاستعلام عن الباقة والرصيد.",
+      "verified": true,
+      "sourceUrl": "https://www.etisalat.eg/StaticFiles/portal/etisalat/pages/plans/hekaya.html?isPersonal=true",
+      "systems": "باقة محددة",
+      "eligibility": "حكاية",
+      "legacyIds": [
+        "et_hekaya"
+      ]
     }
   ]
 }
