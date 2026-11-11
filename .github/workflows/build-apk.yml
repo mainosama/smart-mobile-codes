@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: build-apk-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -52,6 +56,16 @@ jobs:
           test -f pubspec.yaml
           test -d lib
           test -f test/widget_test.dart
+
+      - name: Validate catalog and bundled seed
+        run: |
+          python3 tool/validate_catalog.py
+          cp lib/data/seed_codes.dart "$RUNNER_TEMP/seed_before.dart"
+          python3 tool/generate_seed.py
+          diff -q "$RUNNER_TEMP/seed_before.dart" lib/data/seed_codes.dart
+
+      - name: Download Arabic UI font (falls back to system font on failure)
+        run: python3 tool/fetch_fonts.py
 
       - name: Set up Java
         uses: actions/setup-java@v5
